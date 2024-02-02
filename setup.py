@@ -6,5 +6,7 @@ setup(
     author='Rain Star',
     description="Yet another library server for home",
     packages=find_packages(),
-    install_requires=[],
+    install_requires=[
+        "wikipedia-api"
+    ],
 )
